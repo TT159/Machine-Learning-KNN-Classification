@@ -27,7 +27,7 @@ We next look at the classical handwritten digit recognition problem. The dataset
 and data mnist test.mat. Each data point represents a 28 × 28 grayscale image for hand written digits
 from 0 to 9. To visualize this data, for example, the 200-th training image, you can use
 imshow(reshape(X train(200,:), 28,28)’).
-(e) [8pts] K Apply a 1-Nearest Neighbor classifier to this dataset (treat images as vectors of dimension
+- (e) [8pts] K Apply a 1-Nearest Neighbor classifier to this dataset (treat images as vectors of dimension
 282
 and use Euclidean distance between two vectors to measure the distance between two images).
 Compute and report the test CCR and the confusion matrix in your HW-report.
