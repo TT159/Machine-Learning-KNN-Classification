@@ -21,4 +21,14 @@ Comment on how they differ and how it relates to what you learned in class.
 - (d) K Perform LOOCV on the training set and plot the average LOOCV CCR (vertical axis) as a
 function of k (horizontal axis) for k = 1, 3, 5, 7, 9, 11. Compute and report the smallest value of k for
 which the LOOCV CCR is maximum (among the 6 choices). Print and include the figure of the plot
-in your HW-report. Comment on how what you observe relates to what you learned in class.
+in your HW-report. Comment on how what you observe relates to what you learned in class.</br>
+
+We next look at the classical handwritten digit recognition problem. The dataset is provided in data mnist train.mat
+and data mnist test.mat. Each data point represents a 28 × 28 grayscale image for hand written digits
+from 0 to 9. To visualize this data, for example, the 200-th training image, you can use
+imshow(reshape(X train(200,:), 28,28)’).
+(e) [8pts] K Apply a 1-Nearest Neighbor classifier to this dataset (treat images as vectors of dimension
+282
+and use Euclidean distance between two vectors to measure the distance between two images).
+Compute and report the test CCR and the confusion matrix in your HW-report.
+Hint: The dataset is large. You can improve time efficiency by breaking up computations into batches.
